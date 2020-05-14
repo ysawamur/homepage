@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.video {
+    width: 100%;
+    height: 100vh;
+    background-image: url(school_zone.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.nav {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+
+}

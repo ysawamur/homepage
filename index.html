@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link ref="stylesheet" href="stylesheet.css">
+    <title>Ignition</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.video {
+    /*width: 100%;
+    height: 100vh;
+    background-image: url(school_zone.png);
+    opacity: 0.7;
+    background-color: azure;
+    background-size: cover;
+    background-position: center;*/
+    opacity: 0.5;
+}
+
+.nav {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.nav-up {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Merienda', cursive;
+    margin-bottom: 20px;
+}
+
+.nav-up h1 {
+    color: #ff8c00;
+    background: -webkit-linear-gradient(60deg, #40e0d0, #ff8c00, #ff0080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.nav-down {
+    width: 800px;
+}
+
+.nav-down ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-down ul li {
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+    padding: 10px 10px;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.nav-down ul li a {
+    text-decoration: none;
+    color: azure
+}
+
+.nav-down ul li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+    </style>
+</head>
+<body>
+    <div class="video">
+        <video 
+        width="100%"
+        height="100%"
+        src="OP_PV.mp4"
+        type="video/mp4"
+        controls
+        loop
+        autoplay
+        muted
+        ></video>
+    </div>
+    <div class="nav">
+        <div class="nav-up">
+            <h1>
+                Ignition
+            </h1>
+        </div>
+        <div class="nav-down">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">WORKS</a></li>
+            </ul>
+        </div>    
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>
